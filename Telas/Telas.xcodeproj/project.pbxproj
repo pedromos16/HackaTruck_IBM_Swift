@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5309C0229E715C500004E26 /* SheetView- View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5309C0129E715C500004E26 /* SheetView- View.swift */; };
+		C55227F029E5E5B100348404 /* TelasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55227EF29E5E5B100348404 /* TelasApp.swift */; };
+		C55227F229E5E5B100348404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55227F129E5E5B100348404 /* ContentView.swift */; };
+		C55227F429E5E5B200348404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55227F329E5E5B200348404 /* Assets.xcassets */; };
+		C55227F729E5E5B200348404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55227F629E5E5B200348404 /* Preview Assets.xcassets */; };
+		C55227FE29E5E79100348404 /* Modo 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55227FD29E5E79100348404 /* Modo 1.swift */; };
+		C552280029E5E79F00348404 /* Modo 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55227FF29E5E79F00348404 /* Modo 2.swift */; };
+		C552280329E5E7F000348404 /* Modo 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552280229E5E7F000348404 /* Modo 3.swift */; };
+		C552280529E5EFE600348404 /* DentroModo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552280429E5EFE600348404 /* DentroModo2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5309C0129E715C500004E26 /* SheetView- View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SheetView- View.swift"; sourceTree = "<group>"; };
+		C55227EC29E5E5B100348404 /* Telas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55227EF29E5E5B100348404 /* TelasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelasApp.swift; sourceTree = "<group>"; };
+		C55227F129E5E5B100348404 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C55227F329E5E5B200348404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55227F629E5E5B200348404 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C55227FD29E5E79100348404 /* Modo 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modo 1.swift"; sourceTree = "<group>"; };
+		C55227FF29E5E79F00348404 /* Modo 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modo 2.swift"; sourceTree = "<group>"; };
+		C552280229E5E7F000348404 /* Modo 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modo 3.swift"; sourceTree = "<group>"; };
+		C552280429E5EFE600348404 /* DentroModo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentroModo2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55227E929E5E5B100348404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55227E329E5E5B100348404 = {
+			isa = PBXGroup;
+			children = (
+				C55227EE29E5E5B100348404 /* Telas */,
+				C55227ED29E5E5B100348404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55227ED29E5E5B100348404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55227EC29E5E5B100348404 /* Telas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55227EE29E5E5B100348404 /* Telas */ = {
+			isa = PBXGroup;
+			children = (
+				C55227EF29E5E5B100348404 /* TelasApp.swift */,
+				C55227F129E5E5B100348404 /* ContentView.swift */,
+				C55227F329E5E5B200348404 /* Assets.xcassets */,
+				C55227F529E5E5B200348404 /* Preview Content */,
+			);
+			path = Telas;
+			sourceTree = "<group>";
+		};
+		C55227F529E5E5B200348404 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C55227F629E5E5B200348404 /* Preview Assets.xcassets */,
+				C55227FD29E5E79100348404 /* Modo 1.swift */,
+				C55227FF29E5E79F00348404 /* Modo 2.swift */,
+				C552280229E5E7F000348404 /* Modo 3.swift */,
+				C552280429E5EFE600348404 /* DentroModo2.swift */,
+				C5309C0129E715C500004E26 /* SheetView- View.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55227EB29E5E5B100348404 /* Telas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55227FA29E5E5B200348404 /* Build configuration list for PBXNativeTarget "Telas" */;
+			buildPhases = (
+				C55227E829E5E5B100348404 /* Sources */,
+				C55227E929E5E5B100348404 /* Frameworks */,
+				C55227EA29E5E5B100348404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telas;
+			productName = Telas;
+			productReference = C55227EC29E5E5B100348404 /* Telas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55227E429E5E5B100348404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C55227EB29E5E5B100348404 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C55227E729E5E5B100348404 /* Build configuration list for PBXProject "Telas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55227E329E5E5B100348404;
+			productRefGroup = C55227ED29E5E5B100348404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55227EB29E5E5B100348404 /* Telas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55227EA29E5E5B100348404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55227F729E5E5B200348404 /* Preview Assets.xcassets in Resources */,
+				C55227F429E5E5B200348404 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55227E829E5E5B100348404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C552280029E5E79F00348404 /* Modo 2.swift in Sources */,
+				C55227FE29E5E79100348404 /* Modo 1.swift in Sources */,
+				C55227F229E5E5B100348404 /* ContentView.swift in Sources */,
+				C5309C0229E715C500004E26 /* SheetView- View.swift in Sources */,
+				C552280529E5EFE600348404 /* DentroModo2.swift in Sources */,
+				C552280329E5E7F000348404 /* Modo 3.swift in Sources */,
+				C55227F029E5E5B100348404 /* TelasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C55227F829E5E5B200348404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C55227F929E5E5B200348404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55227FB29E5E5B200348404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedroMarcio.Telas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55227FC29E5E5B200348404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedroMarcio.Telas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55227E729E5E5B100348404 /* Build configuration list for PBXProject "Telas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55227F829E5E5B200348404 /* Debug */,
+				C55227F929E5E5B200348404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55227FA29E5E5B200348404 /* Build configuration list for PBXNativeTarget "Telas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55227FB29E5E5B200348404 /* Debug */,
+				C55227FC29E5E5B200348404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55227E429E5E5B100348404 /* Project object */;
+}
